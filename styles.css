@@ -1,3 +1,64 @@
-* {
-    background-color: yellowgreen;
+.mainContain {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font: 800 48px roboto;
+    /* height: 400px; */
+    width: 50%;
+    /* display: flex; */
+    margin: 0;
+    padding: 0;
+    
+    justify-content: space-between;
+    flex: auto;
+}
+
+.hero div {
+    display: flex;
+    width: 50%;
+    flex: 2 1 0%;
+}
+.randomInfo {
+    background-color: white;
+    color: #1F2937;
+    font: 800 36px roboto;
+    height: 200px;
+    width: 50%;
+}
+.quote {
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font: italic 36px roboto;
+    height: 200px;
+    width: 100%;
+}
+.signUp {
+    background-color: white;
+    color: blue;
+    font: 800 36px roboto;
+    height: 200px;
+    width: 100%;
+}
+header {
+    display: flex;
+}
+header > div {
+    border: solid 1px black;
+    justify-content: center;
+    align-items: center;
+    flex: auto;
+}
+header div ul {
+    float: right;
+    flex: auto;
+}
+footer {
+    background-color: #1F2937;
+    font: roboto;
 }
