@@ -1,27 +1,59 @@
-.firstbox {
-    background-color: #1F2937;
-    display: flex;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-.firstbox > div {
+
+.menu-container {
+    background-color: #1F2937;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    /* text-align: center; */
+    /* flex: block; */
+}
+
+.menu {
+    /* border: 1px solid #fff; */
+    width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    /* height: 35px;
+    width: 100%; */
+}
+
+.logo {
+    color: #F8FAF8;
+    font: 24px extra-bold arial;
+    /* justify-content: center; */
+    /* align-items: center; */
+}
+
+.header-links {
+    /* border: 1px solid #fff; */
+    color: #E5E7EB;
+    font-size: 18px;
+    width: 100%;
+    display: flex;
+    /* float: right; */
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+/* .container > div {
     border: solid 1px #E5E7EB;
     font: 36px;
     color: #E5E7EB;
     justify-content: center;
     align-items: center;
-    flex: auto;
-}
-.logo {
-    font: 36px arial;
-}
-header div ul {
-    float: right;
-    flex: auto;
-}
-/* .mainBody{
-    display: flex;
-    text-align: center;
-    align-items: center;
+    flex: inline-block;
 } */
+
+.one {
+    display: flex;
+    justify-content: center;
+}
+
 .hero {
     background-color: #1F2937;
     color: #F9FAF8;
@@ -31,40 +63,52 @@ header div ul {
     height: 500px;
     display: flex;
 }
-.hero > div {
+
+/* .hero > div {
     flex: auto;
+} */
+
+.felix {
+    justify-content: flex-end;
 }
+
 p + p {
     font: 12px roboto;
 }
-.randomInfo {
+
+.two {
     background-color: white;
     color: #1F2937;
     font: 800 36px roboto;
+    display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
-    display: flex;
+    height: 300px;
 }
-.quote {
+.three {
     background-color: #E5E7EB;
     color: #1F2937;
     font: italic 36px roboto;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 500px;
-    display: flex;
 }
-.signUp {
+.four {
     background-color: white;
     color: blue;
     font: 800 36px roboto;
+    display: flex;
     justify-content: center;
     align-items: center;
     height: 500px;
-    display: flex;
 }
 footer {
     background-color: #1F2937;
     font: roboto;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
